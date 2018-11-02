@@ -1,15 +1,38 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- */
 // Custom bootstrap variable must be set or imported *before* bootrap.
 @import "bootstrap";
+
+/* ========================================== \
+            COLOR THEME
+ \ ==========================================*/
+ 
+ .bg-gray{
+    background-color:  #86707A !important;
+ }
+ .bg-light{
+    background-color: #F8F2F4 !important;
+ }
+ .bg-purple{
+    background-color: #B41462 !important;
+ }
+ .bg-purple-dark{
+    background-color: #6E0031 !important;
+ }
+ .bg-orange{
+    background-color: #FAB413 !important;
+ }
+ 
+.clr-gray{
+    color:  #86707A !important;
+ }
+ .clr-light{
+    color: #F8F2F4 !important;
+ }
+ .clr-purple{
+    color: #B41462 !important;
+ }
+ .clr-purple-dark{
+    color: #6E0031 !important;
+ }
+ .clr-orange{
+    color: #FAB413 !important;
+ }
